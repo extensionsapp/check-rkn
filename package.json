@@ -1,6 +1,6 @@
 {
   "name": "check-rkn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Check IP or domain in RKN blocking.",
   "main": "index.js",
   "scripts": {
@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/extensionsapp/check-rkn#readme",
   "dependencies": {
+    "async": "^2.6.0",
     "ip": "^1.1.5"
   }
 }
