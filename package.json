@@ -1,0 +1,33 @@
+{
+  "name": "check-rkn",
+  "version": "1.0.0",
+  "description": "Check blocking RKN domain or IP.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/extensionsapp/check-rkn.git"
+  },
+  "keywords": [
+    "check",
+    "rkn",
+    "domain",
+    "ip",
+    "blocking",
+    "ru",
+    "russia",
+    "gov",
+    "blocklist"
+  ],
+  "author": "ExtensionsApp <extensionsapp@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/extensionsapp/check-rkn/issues"
+  },
+  "homepage": "https://github.com/extensionsapp/check-rkn#readme",
+  "dependencies": {
+    "ip": "^1.1.5"
+  }
+}
