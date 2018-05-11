@@ -37,6 +37,15 @@ rkn('linkedin.com', (err, res) => {
     console.log(res)
 });
 // true
+
+// Check error data
+rkn(['hello.trololo', '127.0.0.hello'], (err, res) => {
+    console.log(res)
+});
+// [ { domain: 'hello.trololo', error: 'ENOTFOUND', ips: [] },
+//   { domain: '127.0.0.hello', error: 'ENOTFOUND', ips: [] } ]
 ```
+
+###### The first launch of each hour will last longer, since the new database is being downloaded.
 
 © 2018 ExtensionsApp

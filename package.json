@@ -1,6 +1,6 @@
 {
   "name": "check-rkn",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Check IP or domain in RKN blocking.",
   "main": "index.js",
   "scripts": {

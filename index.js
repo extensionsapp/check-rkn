@@ -57,7 +57,8 @@ function check(check_data, type, callback) {
                 if (err) {
                     check_data.splice(key, 1, {
                         "domain": value,
-                        "error": err.code
+                        "error": err.code,
+                        "ips": []
                     });
                 }
                 else {
