@@ -1,7 +1,7 @@
 {
   "name": "check-rkn",
   "version": "1.0.0",
-  "description": "Check blocking RKN domain or IP.",
+  "description": "Check IP or domain in RKN blocking.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
